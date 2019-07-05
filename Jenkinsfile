@@ -29,6 +29,8 @@ pipeline {
                 }
             }
         }
+        stage('Toto') {
+        }
         stage('Deliver') {
             agent {
                 docker {
